@@ -11,7 +11,25 @@
 <h2>Passo 2: Telas de cadastro</h2>
 <p>Serão três telas de cadastro: uma  para conta comum, outra para poupança e para conta especial.</p>
 <h3>Conta Comum</h3>
-<p><b>Nome:</b></p>
+<p><b>Nome:</b> Digite aqui o nome do titular.</p>
+<p><b>Número:</b> Digite aqui o número da conta.</p>
+<p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
+<h3>Conta Poupança</h3>
+<p><b>Nome:</b> Digite aqui o nome do titular.</p>
+<p><b>Número:</b> Digite aqui o número da conta.</p>
+<p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
+<p><b>Taxa de reajuste:</b> Digite aqui a taxa de reajuste da conta poupança, ou seja a porcentagem com que será acrescido o seu slado mensalmente. O "%" na fente do nome "Taxa de reajuste" indica que o valor digitado será dividio por cem.</p>
+<h3>Conta Especial</h3>
+<p><b>Nome:</b> Digite aqui o nome do titular.</p>
+<p><b>Número:</b> Digite aqui o número da conta.</p>
+<p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
+<p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor a ser sacado não seja suficiente.</p>
+<p><b>Multa:</b> Digite aqui o taxa com que o valor excedido ao saldo será cobrado.</p>
+*Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
+
+
+
 
   
+
 
