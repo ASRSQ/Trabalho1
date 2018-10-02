@@ -11,7 +11,7 @@
 <h2>Passo 2: Telas de cadastro</h2>
 <p>Serão três telas de cadastro: uma  para conta comum, outra para poupança e para conta especial.</p>
 <h3>Conta Comum</h3>
-<p><u>Nome:</u></p>
+<p><b>Nome:</b></p>
 
   
 
