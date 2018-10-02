@@ -1,5 +1,5 @@
 
-<h1>Trabalho </h1>
+<h1>Sistema Cadastros</h1>
 <p>Auno: Alex de Sousa Ramos</p>
 <p>Disciplina: Técnicas de Programação</p>               
 <p>Matricula: 428359</p>
@@ -8,7 +8,7 @@
 <p>Para que o programa seja executado é necesário que seja feito o clone deste repositório e assim roda-lo em uma IDE java. Depois de exeuta-lo siga os demais passos.</p>
 <h2>Passo 1: Tela de boas vindas:</h2>
 <p>Aparecerá uma tela escrita "Bem Vindo", basta clicar em ok para prosseguir.
-<h2>Passo 2: Telas de cadastro</h2>
+<h2>Passo 2: Telas de cadastro:</h2>
 <p>Serão três telas de cadastro: uma  para conta comum, outra para poupança e para conta especial.</p>
 <h3>Conta Comum</h3>
 <p><b>Nome:</b> Digite aqui o nome do titular.</p>
@@ -24,7 +24,7 @@
 <p><b>Número:</b> Digite aqui o número da conta.</p>
 <p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
 <p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor a ser sacado não seja suficiente.</p>
-<p><b>Multa:</b> Digite aqui o taxa com que o valor excedido ao saldo será cobrado.</p>
+<p><b>Multa:</b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
 *Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
 
 
