@@ -18,7 +18,7 @@
 <p><b>Nome:</b> Digite aqui o nome do titular.</p>
 <p><b>Número:</b> Digite aqui o número da conta.</p>
 <p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
-<p><b>Taxa de reajuste:</b> Digite aqui a taxa de reajuste da conta poupança, ou seja a porcentagem com que será acrescido o seu slado mensalmente. O "%" na fente do nome "Taxa de reajuste" indica que o valor digitado será dividio por cem.</p>
+<p><b>Taxa de reajuste:</b> Digite aqui a taxa de reajuste da conta poupança, ou seja a porcentagem com que será acrescido o seu saldo mensalmente. O "%" na fente do nome "Taxa de reajuste" indica que o valor digitado será dividio por cem.</p>
 <h3>Conta Especial</h3>
 <p><b>Nome:</b> Digite aqui o nome do titular.</p>
 <p><b>Número:</b> Digite aqui o número da conta.</p>
