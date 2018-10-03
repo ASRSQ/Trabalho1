@@ -24,14 +24,14 @@ private ContaEspecial cs;
         cs= ContaEspecial.getInstancia1();
         jLabel1.setText("Nome Titular: "+conta.getNome());
         jLabel2.setText("Número da conta: "+conta.getNumero());
-        jLabel3.setText("Saldo: "+conta.getSaldo());
+        jLabel3.setText("Saldo: R$"+conta.getSaldo());
         jLabel4.setText("Nome Titular: "+cp.getNome());
         jLabel5.setText("Número da conta: "+cp.getNumero());
-        jLabel6.setText("Saldo: "+cp.getSaldo());
+        jLabel6.setText("Saldo: R$"+cp.getSaldo());
         jLabel15.setText("Taxa de reajuste: "+cp.getReajuste()+"%"); 
         jLabel7.setText("Nome Titular: "+cs.getNome());
         jLabel8.setText("Número da conta: "+cs.getNumero());
-        jLabel9.setText("Saldo: "+cs.getSaldo());
+        jLabel9.setText("Saldo: R$"+cs.getSaldo());
         jLabel12.setText("Limite especial: "+cs.getLimite());   
         jLabel14.setText("Multa: "+cs.getMulta()+"%");   
 

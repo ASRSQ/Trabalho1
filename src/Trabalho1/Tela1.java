@@ -66,7 +66,7 @@ public class Tela1 extends javax.swing.JFrame {
 
         jLabel3.setText("Número da conta:");
 
-        jLabel4.setText("Saldo:");
+        jLabel4.setText("Saldo:(R$)");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
