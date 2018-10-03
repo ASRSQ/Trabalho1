@@ -7,7 +7,7 @@
 <p>Universidade Federal do Ceará</p>
 <h2>Primeiro passo</h2>
 <p>Para que o programa seja executado é necesário que seja feito o clone deste repositório e assim roda-lo em uma IDE java. Depois de executa-lo siga os demais passos.</p>
-<p>*Caso tenha feito o download do arquivo .zip deve-se primeiro exrair.Os arquivos .java estão na pasta src, basta criar um novo projeto e importar os arquivos que estão na pasta citada.Caso a IDE pergunte qual o classe principal esclha a classe "Prncipal". Se houver algum erro refeente ao pacote mude o nome do pacote de seu novo projeto para Trabalho1.</p>
+<p>*Caso tenha feito o download do arquivo .zip deve  primeiro exrai-lo.Os arquivos .java estão na pasta src desse arquivo estraido, basta criar um novo projeto e importar os arquivos que estão na pasta citada.Caso a IDE pergunte qual a classe principal escolha a classe "Prncipal". Se houver algum erro referente ao pacote mude o nome do pacote de seu novo projeto para Trabalho1.</p>
 <h2>Passo 2: Tela de boas vindas:</h2>
 <p>Aparecerá uma tela escrita "Bem Vindo", basta clicar em ok para prosseguir.
 <h2>Passo 3: Telas de cadastro:</h2>
