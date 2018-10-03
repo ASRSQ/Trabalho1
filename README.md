@@ -9,7 +9,7 @@
 <p>Para que o programa seja executado é necesário que seja feito o clone deste repositório e assim roda-lo em uma IDE java. Depois de executa-lo siga os demais passos.</p>
 <p>*Caso tenha feito o download do arquivo .zip deve  primeiro exrai-lo.Os arquivos .java estão na pasta src desse arquivo extraido, basta criar um novo projeto e importar os arquivos que estão na pasta citada.Caso a IDE pergunte qual a classe principal escolha a classe "Principal". Se houver algum erro referente ao pacote mude o nome do pacote de seu novo projeto para Trabalho1.</p>
 <h2>Passo 2: Tela de boas vindas:</h2>
-<p>Aparecerá uma tela escrita "Bem Vindo", basta clicar em ok para prosseguir.
+<p>Aparecerá uma tela escrita "Bem Vindo", basta clicar em ok para prosseguir.</p>
 <h2>Passo 3: Telas de cadastro:</h2>
 <p>Serão três telas de cadastro: uma  para conta comum, outra para poupança e para conta especial.</p>
 <h3>Conta Comum</h3>
@@ -28,6 +28,8 @@
 <p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor que se deseja sacar seja maior que o saldo.</p>
 <p><b>Multa:</b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
 *Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
+<h2>Último passo:</h2>
+<p>Por fim aparecerá a tela de operações onde existem as seguintes opções:saque, depósito, transferência, reajustar,ver saldos, sair. </p>
 
 
 
