@@ -1,7 +1,8 @@
 
 <h1>Sistema Cadastros</h1>
 <p>Auno: Alex de Sousa Ramos</p>
-<p>Disciplina: Técnicas de Programação</p>               
+<p>Disciplina: Técnicas de Programação</p>
+<p>Professor: Wendley S. Silva</p>
 <p>Matricula: 428359</p>
 <p>Universidade Federal do Ceará</p>
 <h2>Primeiro passo</h2>
