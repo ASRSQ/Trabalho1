@@ -25,7 +25,7 @@
 <p><b>Nome:</b> Digite aqui o nome do titular.</p>
 <p><b>Número:</b> Digite aqui o número da conta.</p>
 <p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
-<p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor a ser sacado não seja suficiente.</p>
+<p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor que se deseja sacar seja maior que o saldo.</p>
 <p><b>Multa:</b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
 *Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
 
