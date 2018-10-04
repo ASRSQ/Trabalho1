@@ -4,7 +4,7 @@
 <p>Disciplina: Técnicas de Programação</p>
 <p>Professor: Wendley S. Silva</p>
 <p>Matricula: 428359</p>
-<p>Universidade Federal do Ceará</p>
+<p>Universidade Federal do Ceará-UFC</p>
 <h2>Primeiro passo</h2>
 <p>Para que o programa seja executado é necesário que seja feito o clone deste repositório e assim roda-lo em uma IDE java. Depois de executa-lo siga os demais passos.</p>
 <p>*Caso tenha feito o download do arquivo .zip deve  primeiro exrai-lo.Os arquivos .java estão na pasta src desse arquivo extraido, basta criar um novo projeto e importar os arquivos que estão na pasta citada.Caso a IDE pergunte qual a classe principal escolha a classe "Principal". Se houver algum erro referente ao pacote mude o nome do pacote de seu novo projeto para Trabalho1.</p>
@@ -49,7 +49,7 @@
 <p>*Caso a conta a enviar não tiver slado suficinte o programa avisará</p>
  <h3>Ver saldos:</h3> 
  <p>Mostra o saldo e informações dos três tipos de contas.</p>
-<p>Clique em "ok" para sair.</p>
+<p>Clique em "ok" para voltar a tela de operações.</p>
 <h3>Sair:</h3>
 <p>Finaliza a execução do programa.</p>
 
