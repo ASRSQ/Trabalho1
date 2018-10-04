@@ -31,19 +31,19 @@
 <h2>Último passo:</h2>
 <p>Por fim aparecerá a tela de operações onde existem as seguintes opções:saque, depósito, transferência, reajustar, ver saldos, sair. </p>
 <h3>Saque:</h3>
-<p><d>Número da conta:</d>digite o número da conta a qual se quer fazer o saque.</p>
-<p><d>Valor a ser sacado:</d>digite a quantia que se quer sacar.</p>
+<p><b>Número da conta:</b>digite o número da conta a qual se quer fazer o saque.</p>
+<p><b>Valor a ser sacado:</b>digite a quantia que se quer sacar.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro saque.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.</p>
 <p>*Caso sejam digitadas contas inexistentes o programa avisará.</p>
 <p>*O limite da conta especial também pode ser usado nas outras modalidades de conta.</p>
 <h3>Depósito:</h3>
-<p><d>Número da conta:</d>digite o número da conta a qual se quer fazer o depósito.</p>
-<p><d>Valor a ser depositado:</d>digite a quantia que se quer depositar.</p>
+<p><b>Número da conta:</b>digite o número da conta a qual se quer fazer o depósito.</p>
+<p><b>Valor a ser depositado:</b>digite a quantia que se quer depositar.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
 <h3>Transferência:</h3>
-<p><d>Número da conta a enviar:</d>digite o número da conta a qual se quer enviar o dinheiro.</p>
-<p><d>Número da conta a receber:</d>digite o número da conta a qual se quer receber o dinheiro.</p>
-<p><d>Valor:</d>digite o valor a ser enviado de uma ocnta para a outra.</p>
+<p><b>Número da conta a enviar:</b>digite o número da conta a qual se quer enviar o dinheiro.</p>
+<p><b>Número da conta a receber:</b>digite o número da conta a qual se quer receber o dinheiro.</p>
+<p><b>Valor:</b>digite o valor a ser enviado de uma ocnta para a outra.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.  
 
 
