@@ -37,15 +37,22 @@
 <p>*Caso sejam digitadas contas inexistentes o programa avisará.</p>
 <p>*O limite da conta especial também pode ser usado nas outras modalidades de conta.</p>
 <h3>Depósito:</h3>
-<p><b>Número da conta:</b>digite o número da conta a qual se quer fazer o depósito.</p>
-<p><b>Valor a ser depositado:</b>digite a quantia que se quer depositar.</p>
+<p><b>Número da conta: </b>digite o número da conta a qual se quer fazer o depósito.</p>
+<p><b>Valor a ser depositado: </b>digite a quantia que se quer depositar.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
 <h3>Transferência:</h3>
 <p><b>Número da conta a enviar: </b>digite o número da conta a qual se quer enviar o dinheiro.</p>
 <p><b>Número da conta a receber: </b>digite o número da conta a qual se quer receber o dinheiro.</p>
 <p><b>Valor: </b>digite o valor a ser enviado de uma ocnta para a outra.</p>
-<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta que vai enviar e outra com o nome do titular da conta que vai receber , se desejar prosseguir digite "confirmar", se não, volta para tela de transferência. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outra tranferência.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
-  
+<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta que vai enviar e outra com o nome do titular da conta que vai receber , se desejar prosseguir digite "confirmar", se não, volta para tela de transferência. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outra tranferência.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.</p>
+<p>*Caso o número de quem vai enviar ou de quem for receber não for um número válido o programa aisará.</p>
+<p>*Caso a conta a enviar não tiver slado suficinte o programa avisará</p>
+ <h3>Ver saldos:</h3> 
+ <p>Mostra o saldo e informações dos três tipos de contas.</p>
+<p>Clique em "ok" para sair.</p>
+<h3>Sair:</h3>
+<p>Finaliza a execução do programa.</p>
+
 
 
   
