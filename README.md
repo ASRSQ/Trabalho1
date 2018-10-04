@@ -17,22 +17,22 @@
 <p><b>Número:</b> Digite aqui o número da conta.</p>
 <p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
 <h3>Conta Poupança</h3>
-<p><b>Nome:</b> Digite aqui o nome do titular.</p>
-<p><b>Número:</b> Digite aqui o número da conta.</p>
-<p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
-<p><b>Taxa de reajuste:</b> Digite aqui a taxa de reajuste da conta poupança, ou seja a porcentagem com que será acrescido o seu saldo mensalmente. O "%" na fente do nome "Taxa de reajuste" indica que o valor digitado será dividio por cem.</p>
+<p><b>Nome : b> Digite aqui o nome do titular.</p>
+<p><b>Número: </b> Digite aqui o número da conta.</p>
+<p><b>Saldo: </b> Digite aqui o saldo inicial da conta.</p>
+<p><b>Taxa de reajuste: </b> Digite aqui a taxa de reajuste da conta poupança, ou seja a porcentagem com que será acrescido o seu saldo mensalmente. O "%" na fente do nome "Taxa de reajuste" indica que o valor digitado será dividio por cem.</p>
 <h3>Conta Especial</h3>
-<p><b>Nome:</b> Digite aqui o nome do titular.</p>
-<p><b>Número:</b> Digite aqui o número da conta.</p>
-<p><b>Saldo:</b> Digite aqui o saldo inicial da conta.</p>
-<p><b>Limite:</b> Digite aqui o limite com o qual a conta especial vai contar caso o valor que se deseja sacar seja maior que o saldo.</p>
-<p><b>Multa:</b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
+<p><b>Nome: </b> Digite aqui o nome do titular.</p>
+<p><b>Número: </b> Digite aqui o número da conta.</p>
+<p><b>Saldo: </b> Digite aqui o saldo inicial da conta.</p>
+<p><b>Limite: </b> Digite aqui o limite com o qual a conta especial vai contar caso o valor que se deseja sacar seja maior que o saldo.</p>
+<p><b>Multa: </b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
 *Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
-<h2>Último passo:</h2>
+<h2>Último passo: </h2>
 <p>Por fim aparecerá a tela de operações onde existem as seguintes opções:saque, depósito, transferência, reajustar, ver saldos, sair. </p>
 <h3>Saque:</h3>
-<p><b>Número da conta:</b>digite o número da conta a qual se quer fazer o saque.</p>
-<p><b>Valor a ser sacado:</b>digite a quantia que se quer sacar.</p>
+<p><b>Número da conta: </b>digite o número da conta a qual se quer fazer o saque.</p>
+<p><b>Valor a ser sacado: </b>digite a quantia que se quer sacar.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro saque.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.</p>
 <p>*Caso sejam digitadas contas inexistentes o programa avisará.</p>
 <p>*O limite da conta especial também pode ser usado nas outras modalidades de conta.</p>
@@ -41,10 +41,11 @@
 <p><b>Valor a ser depositado:</b>digite a quantia que se quer depositar.</p>
 <p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
 <h3>Transferência:</h3>
-<p><b>Número da conta a enviar:</b>digite o número da conta a qual se quer enviar o dinheiro.</p>
-<p><b>Número da conta a receber:</b>digite o número da conta a qual se quer receber o dinheiro.</p>
-<p><b>Valor:</b>digite o valor a ser enviado de uma ocnta para a outra.</p>
-<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.  
+<p><b>Número da conta a enviar: </b>digite o número da conta a qual se quer enviar o dinheiro.</p>
+<p><b>Número da conta a receber: </b>digite o número da conta a qual se quer receber o dinheiro.</p>
+<p><b>Valor: </b>digite o valor a ser enviado de uma ocnta para a outra.</p>
+<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta que vai enviar e outra com o nome do titular da conta que vai receber , se desejar prosseguir digite "confirmar", se não, volta para tela de transferência. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outra tranferência.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
+  
 
 
   
