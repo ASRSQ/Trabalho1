@@ -5,6 +5,8 @@
  */
 package Trabalho1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Alex
@@ -16,7 +18,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       
+        JOptionPane.showMessageDialog(null,"Bem vindo");
         new Tela1().setVisible(true);
     }
     

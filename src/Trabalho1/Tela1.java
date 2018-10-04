@@ -142,10 +142,7 @@ public class Tela1 extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(null, "Saldo inválido");
                     return;
                 }
-            }
-//        a.setNome(jTextField1.getText());
-//        a.setNumero(Integer.parseInt(jTextField2.getText()));
-//        a.setSaldo(Double.parseDouble(jTextField3.getText()));
+            }    
         new tela22().setVisible(true);
         dispose();
         //new Principal().setVisible(true);

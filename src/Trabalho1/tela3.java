@@ -64,7 +64,7 @@ public class tela3 extends javax.swing.JFrame {
 
         jLabel3.setText("Número da conta:");
 
-        jLabel4.setText("Saldo:(R$)");
+        jLabel4.setText("Saldo (R$):");
 
         jLabel5.setText("Limite(cheque especial):");
 

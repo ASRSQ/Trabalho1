@@ -58,7 +58,7 @@ public class Transferir extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Valor :");
+        jLabel3.setText("Valor(R$) :");
 
         jButton2.setText("Cancelar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +117,46 @@ public class Transferir extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         double a;
+        String v=null;
+        String l= null;
+        if(Integer.parseInt(jTextField1.getText())==conta.getNumero())
+        {
+            v=conta.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cs.getNumero())
+        {
+            v=cs.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cp.getNumero())
+        {
+            v=cp.getNome();
+        }
+        if(Integer.parseInt(jTextField2.getText())==conta.getNumero())
+        {
+            l=conta.getNome();
+        }
+        if(Integer.parseInt(jTextField2.getText())==cs.getNumero())
+        {
+            l=cs.getNome();
+        }
+        if(Integer.parseInt(jTextField2.getText())==cp.getNumero())
+        {
+            l=cp.getNome();
+        }
+        if(v==null)
+        {
+            JOptionPane.showMessageDialog(null,"Conta a enviar não encontrada");
+        }
+        if(l==null)
+        {
+            JOptionPane.showMessageDialog(null,"Conta a receber não encontrada");
+        }
+        if(l!=null&& v!=null){
+             String[] options = {"Confirmar","Cancelar"};    
+            int x = JOptionPane.showOptionDialog(null,"Titular da conta a enviar: "+v+"\n"+"Titular da conta a receber:"+l,
+            "Confirme a operação",
+            JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
+    if(x==0){        
         if(Integer.parseInt(jTextField2.getText())==cp.getNumero()||Integer.parseInt(jTextField2.getText())==cs.getNumero()||Integer.parseInt(jTextField2.getText())==conta.getNumero() ){
             if(Integer.parseInt(jTextField1.getText())==cp.getNumero()||Integer.parseInt(jTextField1.getText())==cs.getNumero()||Integer.parseInt(jTextField1.getText())==conta.getNumero() ){    
                     if(Integer.parseInt(jTextField1.getText())==conta.getNumero()){
@@ -202,17 +242,21 @@ public class Transferir extends javax.swing.JFrame {
                        }
                     }
             }        
-            else{
-                JOptionPane.showMessageDialog(null,"Conta a enviar não encontrada");
-                new Final().setVisible(true);
-                dispose();
-            }
+//            else{
+//                JOptionPane.showMessageDialog(null,"Conta a enviar não encontrada");
+//                new Final().setVisible(true);
+//                dispose();
         }
-        else{
-            JOptionPane.showMessageDialog(null, "Conta a receber não encontrada");
-            new Final().setVisible(true);
-            dispose();
+           }else{
+                    JOptionPane.showMessageDialog(null,"Operação cancelada");
+                    return;
+                }
         }
+//        else{
+//            JOptionPane.showMessageDialog(null, "Conta a receber não encontrada");
+//            new Final().setVisible(true);
+//            dispose();
+//        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

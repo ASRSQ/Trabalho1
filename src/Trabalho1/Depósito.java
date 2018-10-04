@@ -73,7 +73,7 @@ private ContaEspecial cs;
 
         jLabel1.setText("Número da conta:");
 
-        jLabel2.setText("Valor a ser depositado:");
+        jLabel2.setText("Valor a ser depositado(R$):");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -118,7 +118,30 @@ private ContaEspecial cs;
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+            String v=null;
+        if(Integer.parseInt(jTextField1.getText())==conta.getNumero())
+        {
+            v=conta.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cs.getNumero())
+        {
+            v=cs.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cp.getNumero())
+        {
+            v=cp.getNome();
+        }
+  if(v==null)
+       {
+           JOptionPane.showMessageDialog(null,"Conta inexistente");
+       }
+    else{
+       String[] options = {"Confirmar","Cancelar"};    
+        int x = JOptionPane.showOptionDialog(null,"Titular da conta: "+v,
+                "Confirme a operação",
+                JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
         String u;
+    if(x==0){    
         if(Integer.parseInt(jTextField1.getText())==conta.getNumero())
         {   
             JOptionPane.showMessageDialog(null, "Depósito Realizado com sucesso");
@@ -143,10 +166,15 @@ private ContaEspecial cs;
             new Final().setVisible(true);
             dispose();
         }
-        if( Integer.parseInt(jTextField1.getText())!=cp.getNumero() && Integer.parseInt(jTextField1.getText())!=conta.getNumero()&& Integer.parseInt(jTextField1.getText())!=cs.getNumero() ){
-            JOptionPane.showMessageDialog(null, "Conta inexistente");
-            new Final().setVisible(true);
-            dispose();    }
+//        if( Integer.parseInt(jTextField1.getText())!=cp.getNumero() && Integer.parseInt(jTextField1.getText())!=conta.getNumero()&& Integer.parseInt(jTextField1.getText())!=cs.getNumero() ){
+//            JOptionPane.showMessageDialog(null, "Conta inexistente");
+//            new Final().setVisible(true);
+//            dispose();    }
+    }
+    else{
+         JOptionPane.showMessageDialog(null,"Operação cancelada");  
+    }    
+   }
     }//GEN-LAST:event_jButton2ActionPerformed
 
          

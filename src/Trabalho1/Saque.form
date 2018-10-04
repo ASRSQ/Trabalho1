@@ -100,7 +100,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Valor a ser sacado:"/>
+        <Property name="text" type="java.lang.String" value="Valor a ser sacado(R$):"/>
       </Properties>
     </Component>
   </SubComponents>

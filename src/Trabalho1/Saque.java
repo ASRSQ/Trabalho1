@@ -73,7 +73,7 @@ private ContaEspecial cs;
 
         jLabel1.setText("Número da conta:");
 
-        jLabel2.setText("Valor a ser sacado:");
+        jLabel2.setText("Valor a ser sacado(R$):");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -117,9 +117,30 @@ private ContaEspecial cs;
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-        
+        String v=null;
+        if(Integer.parseInt(jTextField1.getText())==conta.getNumero())
+        {
+            v=conta.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cs.getNumero())
+        {
+            v=cs.getNome();
+        }
+        if(Integer.parseInt(jTextField1.getText())==cp.getNumero())
+        {
+            v=cp.getNome();
+        }
+       
+   if(v==null){  
+          JOptionPane.showMessageDialog(null,"Conta inexistente");
+      }
+      else{
+            String[] options = {"Confirmar","Cancelar"};    
+            int x = JOptionPane.showOptionDialog(null,"Titular da conta: "+v,
+            "Confirme a operação",
+            JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
         String u;
+      if(x==0){
         if(Integer.parseInt(jTextField1.getText())==conta.getNumero()){
             JOptionPane.showMessageDialog(null,"Operação de saque realizada com sucesso");
             double o=Double.parseDouble(jTextField2.getText());
@@ -131,7 +152,7 @@ private ContaEspecial cs;
                    double c;
                    c=b-o;
                    conta.setSaldo(c+(c*0.1));
-                 JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome:"+conta.getNome()+"\n"+"Saldo atual: "+conta.getSaldo());
+                 JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome: "+conta.getNome()+"\n"+"Número da conta: "+conta.getNumero()+"\n"+"Saldo atual: R$"+conta.getSaldo()+"\n"+"Tipo cda conta:"+conta.tipoConta());
                  new Final().setVisible(true);
                  dispose();
                }
@@ -144,7 +165,7 @@ private ContaEspecial cs;
            }
            else{
                 u= conta.sacar(Double.parseDouble(jTextField2.getText()));
-                JOptionPane.showMessageDialog(null,u+"\n"+"Nome:"+conta.getNome()+"\n"+"Saldo atual:"+conta.getSaldo()+"\n"+"Tipo da conta: "+conta.tipoConta());
+                JOptionPane.showMessageDialog(null,u+"\n"+"Nome: "+conta.getNome()+"\n"+"Número da conta: "+conta.getNumero()+"\n"+"Saldo atual: R$"+conta.getSaldo()+"\n"+"Tipo da conta: "+conta.tipoConta());
                 new Final().setVisible(true);
                 dispose();
             }
@@ -161,7 +182,7 @@ private ContaEspecial cs;
                         double c;
                         c=b-o;
                         cp.setSaldo(c+(c*0.1));
-                        JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome:"+cp.getNome()+"\n"+"Saldo atual: "+cp.getSaldo()+"\n"+"Tipo da conta: "+cp.tipoconta());
+                        JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome: "+cp.getNome()+"\n"+"Número da conta: "+cp.getNumero()+"\n"+"Saldo atual: R$"+cp.getSaldo()+"\n"+"Tipo da conta: "+cp.tipoconta());
                         new Final().setVisible(true);
                         dispose();
 
@@ -176,7 +197,7 @@ private ContaEspecial cs;
          
             else{
                 u= cp.sacar(Double.parseDouble(jTextField2.getText()));
-                JOptionPane.showMessageDialog(null,u+"\n"+"Nome:"+cp.getNome()+"\n"+"Saldo atual:"+cp.getSaldo());
+                JOptionPane.showMessageDialog(null,u+"\n"+"Nome: "+cp.getNome()+"\n"+"Número da conta: "+conta.getNumero()+"\n"+"Saldo atual: R$"+cp.getSaldo()+"\n"+"Tipo da conta:"+cp.tipoconta());
                 new Final().setVisible(true);
                        dispose();
             }
@@ -188,10 +209,9 @@ private ContaEspecial cs;
                     double b= cs.getSaldo();
                     double a= cs.getSaldo()+cs.getLimite();
                     if(a>=o){
-                       //cs.setLimite((int)(cs.getSaldo()-o)+cs.getLimite());
                        double c;
                        cs.descontar(o);
-                       JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome:"+cs.getNome()+"\n"+"Saldo atual: "+cs.getSaldo());  
+                       JOptionPane.showMessageDialog(null,"Saque\n" +"Saque efetuado usando cheque especial"+"\n"+"Nome: "+cs.getNome()+"\n"+"Número da conta: "+cs.getNumero()+"\n"+"Saldo atual: R$"+cs.getSaldo()+"\n"+"Tipo da conta: "+cs.tipoConta());  
                        new Final().setVisible(true);
                        dispose();
                     }
@@ -204,15 +224,16 @@ private ContaEspecial cs;
                 }        
                 else{
                         u= cs.sacar(Double.parseDouble(jTextField2.getText()));
-                        JOptionPane.showMessageDialog(null,u+"\n"+"Nome:"+cs.getNome()+"\n"+"Saldo atual:"+cs.getSaldo()+"\n"+"Tipo da conta:"+cs.tipoConta());}
+                        JOptionPane.showMessageDialog(null,u+"\n"+"Nome: "+cs.getNome()+"\n"+"Número da conta:"+cs.getNumero()+"\n"+"Saldo atual: R$"+cs.getSaldo()+"\n"+"Tipo da conta:"+cs.tipoConta());}
                         new Final().setVisible(true);
                         dispose();
             }
-    if( Integer.parseInt(jTextField1.getText())!=cp.getNumero() && Integer.parseInt(jTextField1.getText())!=conta.getNumero()&& Integer.parseInt(jTextField1.getText())!=cs.getNumero() ){
-        JOptionPane.showMessageDialog(null, "Conta inexistente");
-        new Final().setVisible(true);
-        dispose();    
-    }
+      }
+      else{
+           JOptionPane.showMessageDialog(null,"Operação cancelada");
+           return;
+       }
+    }    
     }//GEN-LAST:event_jButton2ActionPerformed
 
          
