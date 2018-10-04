@@ -29,9 +29,18 @@
 <p><b>Multa:</b> Digite aqui o taxa a ser adicionada a cobrança do valor excedido. O "%" na fente do nome "Multa" indica que o valor digitado será dividio por cem.</p>
 *Caso o usuário deixe algum desses campos em branco ou digite o mesmo número de conta para duas contas diferentes ele será avisado. 
 <h2>Último passo:</h2>
-<p>Por fim aparecerá a tela de operações onde existem as seguintes opções:saque, depósito, transferência, reajustar,ver saldos, sair. </p>
-
-
+<p>Por fim aparecerá a tela de operações onde existem as seguintes opções:saque, depósito, transferência, reajustar, ver saldos, sair. </p>
+<h3>Saque:</h3>
+<p><d>Número da conta:</d>digite o número da conta a qual se quer fazer o saque.</p>
+<p><d>Valor a ser sacado:</d>digite a quantia que se quer sacar.</p>
+<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro saque.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.</p>
+<p>*Caso sejam digitadas contas inexistentes o programa avisará.</p>
+<p>*O limite da conta especial também pode ser usado nas outras modalidades de conta.</p>
+<h3>Depósito:</h3>
+<p><d>Número da conta:</d>digite o número da conta a qual se quer fazer o depósito.</p>
+<p><d>Valor a ser depositado:</d>digite a quantia que se quer depositar.</p>
+<p>Após ter digitado os valores aparcerá uma tela de confirmação com o nome do titular da conta, se desejar prosseguir digite "confirmar", se não, volta para tela de saque. Caso prossiga o programa seguirá para a tela de operações, caso aperte em "cancelar" haverá a possibilidade de realizar outro depósito.Caso não deseje fazer operação aperte em "cancelar" e volte para tela de operações.
+  
 
 
   
