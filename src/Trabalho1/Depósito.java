@@ -146,7 +146,7 @@ private ContaEspecial cs;
         {   
             JOptionPane.showMessageDialog(null, "Depósito Realizado com sucesso");
             conta.depositar(Double.parseDouble(jTextField2.getText()));
-            JOptionPane.showMessageDialog(null,"Nome:"+conta.getNome()+"\n"+"Saldo atual:"+conta.getSaldo());
+            JOptionPane.showMessageDialog(null,"Nome:"+conta.getNome()+"\n"+"Número da conta: "+conta.getNumero()+"\n"+"Saldo atual:"+conta.getSaldo());
             new Final().setVisible(true);
             dispose();
         }
@@ -154,7 +154,7 @@ private ContaEspecial cs;
         {
             JOptionPane.showMessageDialog(null, "Depósito Realizado com sucesso");
             cs.depositar(Double.parseDouble(jTextField2.getText()));
-            JOptionPane.showMessageDialog(null,"Nome:"+cs.getNome()+"\n"+"Saldo atual:"+cs.getSaldo());
+            JOptionPane.showMessageDialog(null,"Nome:"+cs.getNome()+"\n"+"Número da conta: "+cs.getNumero()+"\n"+"Saldo atual:"+cs.getSaldo());
             new Final().setVisible(true);
             dispose();
         }
@@ -162,14 +162,10 @@ private ContaEspecial cs;
         {
             JOptionPane.showMessageDialog(null, "Depósito Realizado com sucesso");
             cp.depositar(Double.parseDouble(jTextField2.getText()));
-            JOptionPane.showMessageDialog(null,"Nome:"+cp.getNome()+"\n"+"Saldo atual:"+cp.getSaldo());
+            JOptionPane.showMessageDialog(null,"Nome:"+cp.getNome()+"\n"+"Número da conta: "+cp.getNumero()+"\n"+"Saldo atual:"+cp.getSaldo());
             new Final().setVisible(true);
             dispose();
         }
-//        if( Integer.parseInt(jTextField1.getText())!=cp.getNumero() && Integer.parseInt(jTextField1.getText())!=conta.getNumero()&& Integer.parseInt(jTextField1.getText())!=cs.getNumero() ){
-//            JOptionPane.showMessageDialog(null, "Conta inexistente");
-//            new Final().setVisible(true);
-//            dispose();    }
     }
     else{
          JOptionPane.showMessageDialog(null,"Operação cancelada");  
